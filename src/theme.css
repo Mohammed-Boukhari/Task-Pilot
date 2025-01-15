@@ -1,0 +1,105 @@
+.theme-btn {
+  outline: 0;
+  border-radius: 1rem;
+  padding: 0.3rem 0.5rem;
+  color: #fff;
+  /* background-color: #3d4a59; */
+  background-color: transparent;
+  border: 1.5px solid #ddd;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.theme-btn:hover {
+  box-shadow: 0 0 10px #555, 0 0 40px #555, 0 0 80px #555;
+  background: #555;
+  border: none;
+  outline: 0;
+}
+
+.theme-btn:focus {
+  padding: 4px 12px;
+  box-shadow: 0 0 10px #555, 0 0 40px #555, 0 0 80px #555;
+  box-shadow: 0 0 0 5px #3d4a59, 0 0 0 6px #fff;
+}
+
+/* ==============
+  Dark mode
+=================*/
+
+.Dark {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.Dark main {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.Dark .ali {
+  background-color: rgba(17, 17, 17, 0.885) !important;
+}
+
+/* ==============
+Icon (sun & moon)
+==================*/
+.fa-sun,
+.fa-moon {
+  font-size: 20px;
+}
+
+.fa-solid:hover {
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.Light .fa-sun {
+  display: none;
+}
+.Light .one-task {
+  border: 2px solid #000000 !important;
+  background: #c9cdcd;
+  color: black;
+}
+.Light .home .all-tasks .one-task li,
+.Light .home .all-tasks .one-task h2 {
+  color: #222 !important;
+}
+
+.Light .edit-task .card-task {
+  background-color: rgb(182 193 191);
+}
+
+.Light .edit-task .card-task:hover {
+  background-color: rgb(142 155 151);
+  border-left: 4px solid #ffa600;
+}
+
+.Light .edit-task .time time,
+.edit-task p.time {
+  color: rgb(108 91 79);
+}
+
+.Light .edit-task .fa-trash {
+  color: rgb(217 93 93);
+}
+
+.Light .home .all-tasks .one-task:hover {
+  border-left: 8px solid #a89476;
+}
+
+.Light .home .all-tasks .one-task .time time {
+  color: rgb(0, 96, 180);
+}
+.Light .edit-task .card-task p {
+  color: #222;
+}
+
+.fa-sun {
+  color: orange;
+}
+
+.Dark .fa-moon {
+  display: none;
+}
